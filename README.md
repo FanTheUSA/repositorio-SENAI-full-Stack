@@ -8,8 +8,8 @@
 **Professor:** Gabriel Monteiro Dias
 
 ## integrantes da Dupla
-- Nome Aluno 1 - Neirkis Patricia
-- Nome Aluno 2 - Julia
+- Aluno 1 - Neirkis Patricia
+- Aluno 2 - Julia
 
 ---
 
