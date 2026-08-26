@@ -1,0 +1,70 @@
+/* =========================
+   CONFIGURAÇÃO GERAL
+========================= */
+
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+  margin: 10px;
+  padding: 20px;
+  background-color: #0B1020; 
+    font-family: "Press Start 2P", cursive;
+  color:rgb(214, 210, 231);
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(86, 68, 134);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(26, 139, 64);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(129, 9, 25);
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+#topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cfb9b517;
+    color: rgb(230, 147, 147);
+    padding: 20px;
+    z-index: 200;
+}
+
+.menu { 
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a { transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: block;
+    background-color: rgb(80, 96, 155);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: 3px solid rgb(223, 175, 73);
+}
