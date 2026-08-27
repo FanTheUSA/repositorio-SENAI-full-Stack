@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Catálogo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛍️ Meu Catálogo</h1>
+        <p>Confira nossos produtos</p>
+    </header>
+
+    <main>
+
+        <section class="filtros">
+            <h2>Filtrar produtos</h2>
+
+            <select id="categoria">
+                <option value="todos">Todos os produtos</option>
+                <option value="Eletrônicos">Eletrônicos</option>
+                <option value="Roupas">Roupas</option>
+                <option value="Calçados">Calçados</option>
+                <option value="Acessórios">Acessórios</option>
+            </select>
+
+            <button onclick="filtrarProdutos()">
+                Filtrar
+            </button>
+        </section>
+
+        <section id="catalogo" class="catalogo">
+            <!-- Os produtos serão inseridos pelo JavaScript -->
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Meu Catálogo</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
